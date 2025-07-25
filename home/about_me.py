@@ -1,14 +1,25 @@
 import streamlit as st
 
-st.title("💻 Desenvolvedor Python")
+st.title("Desenvolvedor Python | Inteligência Artificial | Machine Learning ")
 
 st.write(
     """
-        -  💻 Desenvolvedor Fullstack Python | Analista de Dados e Inteligência Artificial
-        -  👨🏻‍💻 Desenvolvedor entusiasta por transformar ideias em soluções eficientes e escaláveis. Com 𝟭 𝗮𝗻𝗼 𝗲 𝟲 𝗺𝗲𝘀𝗲𝘀 de experiência prática no desenvolvimento de sistemas, venho me especializando em Backend com Python
-        -  🤖 𝗜𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 e Machine Learning: Atualmente, aprofundo meus conhecimentos em IA e ML, com foco no desenvolvimento de sistemas baseados em dados e na criação de Agentes de IA. Busco integrar inteligência às aplicações para torná-las mais autônomas e adaptáveis
-        -  🌐 Desenvolvimento web: 𝗗𝗷𝗮𝗻𝗴𝗼 para criar aplicações web estruturadas com regras de negócio bem definidas e Django REST Framework para desenvolver APIs RESTful seguras e escaláveis. No frontend, trabalho com HTML, CSS e Streamlit para interfaces simples e funcionais. Sigo princípios de POO e boas práticas de arquitetura para manter código limpo e sustentável.
-        -  📊 Trabalho com dados e automações: Tenho sólida experiência em ETL, SQL e análise de dados, utilizando 𝗣𝗮𝗻𝗱𝗮𝘀 e NumPy para processar, transformar e extrair valor dos dados no PostgreSQL. Também aplico visualizações interativas com Plotly, contribuindo para sistemas mais inteligentes e guiados por dados.
+        -  👨🏻‍💻 Desenvolvedor Python | Impulsionando a Inovação com Dados e Inteligencia artificial
+
+        -  Com 1 ano e 6 meses de experiência em Python, transformo desafios em soluções inteligentes e escaláveis, com proficiência em Backend.
+
+        -  Sou um entusiasta da Inteligência Artificial e Machine Learning, focado em desenvolver Agentes de IA e sistemas guiados por dados que trazem autonomia e eficiência às aplicações.
+
+        Minhas ferramentas e habilidades incluem:
+
+        - 🧠 TensorFlow e Keras: Para arquitetar e treinar modelos de IA de ponta.
+        - 💡 Scikit-learn: Aplicação estratégica de algoritmos de Machine Learning.
+        - 📊 Pandas e NumPy: Extraio valor e insights de grandes volumes de dados.
+        - 📈 Matplotlib e Plotly: Crio dashboards e visualizações dinâmicas que revelam informações cruciais.
+        - 🖼️ Pillow: Para manipulação e pré-processamento de imagens em Visão Computacional.
+        - 💻 Streamlit: Desenvolvimento ágil de interfaces intuitivas para demonstrar modelos de IA.
+        - ⚙️ Django e Django REST Framework: Construção de backends robustos para sustentar soluções de IA no desenvolvimento web.
+        - 🗄️ SQL e PostgreSQL: Expertise em ETL e otimização de consultas para gestão de dados.
 
     """
 )
@@ -18,6 +29,19 @@ st.subheader("Experiencia Profissional")
 
 st.write(
     """
-        -  Desenvolvedor Python | Analista de Dados
+        -   Criação de agentes de Inteligência artificial. 
+        -   Estastisticas de vendas e analise de demandas sob pesquisa operacional. 
+        -   Tratamento de dados com Python e Excel para envio a banco de dados (PostgreSQL). 
+        -   Analise de dados com métricas de CRM. 
+        -   Elaboração de dashboards para apresentação a stakeholders. 
+        -   Emissão de relatórios usando modelos LLMs. 
+        -   Automação de fluxos manuais com ferramentas low-code e no-code. 
+        -   Desenvolvimento de interfaces web com Streamlit.
+        -   Desenvolvimento de backend com Django e Django REST Framework.
+        -   Proficiencia em Pandas e numpy para tratamento de dados e calculos matematicos.
+        -   Habilidade em SQL e PostgreSQL para gestão de dados.
+        -   Criador de APIs RESTful com Django REST Framework.
+        -   Versionamento de codigo com Git e GitHub.
+        -   Expertise em Dashboards e apresentações de insights relevantes para steakeholders.
     """
 )
