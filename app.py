@@ -15,10 +15,16 @@ project_1 = st.Page(
     icon="👨🏻‍💻",
 )
 
+project_2 = st.Page(
+    page="projects/front_end_com_streamlit.py",
+    title="Front end com Streamlit",
+    icon="👨🏻‍💻",
+)
+
 page = st.navigation(
     {
         "Informações": [about_me],
-        "Projetos": [project_1],
+        "Projetos": [project_1, project_2],
     }
 )
 

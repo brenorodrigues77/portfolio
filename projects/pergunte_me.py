@@ -2,11 +2,6 @@ from PIL import Image
 from pathlib import Path
 import streamlit as st
 
-
-from PIL import Image
-from pathlib import Path
-import streamlit as st
-
 assets_path = Path("assets/pergunte_me")
 
 st.subheader("Pergunte-me")
@@ -29,3 +24,8 @@ st.write("Fotos")
 for foto in fotos:
     img = Image.open(foto)
     st.image(img, caption=foto.name, use_container_width=True)
+
+st.link_button(
+    "Codigo Fonte",
+    "https://github.com/brenorodrigues77/pergunte_me"
+)

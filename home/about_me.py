@@ -1,14 +1,13 @@
 import streamlit as st
 
-st.title("Desenvolvedor Python | Inteligência Artificial | Machine Learning ")
-
+st.title("Desenvolvedor Python Junior | Inteligência Artificial ")
 st.write(
     """
         -  👨🏻‍💻 Desenvolvedor Python | Impulsionando a Inovação com Dados e Inteligencia artificial
 
         -  Com 1 ano e 6 meses de experiência em Python, transformo desafios em soluções inteligentes e escaláveis, com proficiência em Backend.
 
-        -  Sou um entusiasta da Inteligência Artificial e Machine Learning, focado em desenvolver Agentes de IA e sistemas guiados por dados que trazem autonomia e eficiência às aplicações.
+        -  Sou um entusiasta da Inteligência Artificial, focado em desenvolver Agentes de IA e sistemas guiados por dados que trazem autonomia e eficiência às aplicações.
 
         Minhas ferramentas e habilidades incluem:
 
