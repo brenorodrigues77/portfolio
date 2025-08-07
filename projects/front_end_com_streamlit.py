@@ -6,7 +6,8 @@ assets_path = Path("assets/front_end_com_streamlit")
 
 st.subheader("Front end com Streamlit")
 
-st.write("""
+if 'descricao_project2' not in st.session_state:
+    st.session_state['descricao_project2'] = """
 Descrição:
 - Front end com Streamlit, Um projeto construído utilizando o framework Streamlit consumindo um API rest de uma cafeteria.
         
@@ -25,15 +26,18 @@ Funcionalidades:
 - Gerenciamento de avaliações de cafés
 
 Visualização de estatísticas de companhias de cafés
-""")
+"""
 
-fotos = list(assets_path.glob("*.png"))
+if 'fotos_project2' not in st.session_state:
+    fotos = list(assets_path.glob("*.png"))
+    st.session_state['fotos_project2'] = [Image.open(foto) for foto in fotos]
+
+st.write(st.session_state['descricao'])
 
 st.write("Fotos")
 # Exiba as fotos no Streamlit
-for foto in fotos:
-    img = Image.open(foto)
-    st.image(img, caption=foto.name, use_container_width=True)
+for foto in st.session_state['fotos_project2']:
+    st.image(foto, caption=foto.filename, use_container_width=True)
 
 st.link_button(
     "Codigo Fonte",
