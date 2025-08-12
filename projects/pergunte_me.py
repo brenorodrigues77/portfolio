@@ -6,8 +6,8 @@ assets_path = Path("assets/pergunte_me")
 
 st.subheader("Pergunte-me")
 
-if 'descricao' not in st.session_state:
-    st.session_state['descricao'] = """
+if 'descricao_project1' not in st.session_state:
+    st.session_state['descricao_project1'] = """
 Descrição:
 - Pergunte-me é um projeto de chatbot que utiliza a tecnologia de linguagem natural para responder tudo sobre um determinado arquivo do seu computador ou urls da internet. O projeto é construído utilizando o framework Streamlit e a biblioteca Langchain para processamento de linguagem natural.
         
@@ -18,15 +18,15 @@ Funcionalidades:
 - Suporte a varias chaves de APIs de inteligencia artificial.
 """
 
-if 'fotos' not in st.session_state:
+if 'fotos_project1' not in st.session_state:
     fotos = list(assets_path.glob("*.png"))
-    st.session_state['fotos'] = [Image.open(foto) for foto in fotos]
+    st.session_state['fotos_project1'] = [Image.open(foto) for foto in fotos]
 
-st.write(st.session_state['descricao'])
+st.write(st.session_state['descricao_project1'])
 
 st.write("Fotos")
 # Exiba as fotos no Streamlit
-for foto in st.session_state['fotos']:
+for foto in st.session_state['fotos_project1']:
     st.image(foto, caption=foto.filename, use_container_width=True)
 
 st.link_button(

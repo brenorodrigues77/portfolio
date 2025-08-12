@@ -32,7 +32,7 @@ if 'fotos_project2' not in st.session_state:
     fotos = list(assets_path.glob("*.png"))
     st.session_state['fotos_project2'] = [Image.open(foto) for foto in fotos]
 
-st.write(st.session_state['descricao'])
+st.write(st.session_state['descricao_project2'])
 
 st.write("Fotos")
 # Exiba as fotos no Streamlit
