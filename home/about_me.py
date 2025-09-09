@@ -7,17 +7,17 @@ st.write(
 
         -  Com 1 ano e 6 meses de experiência em Python, transformo desafios em soluções inteligentes e escaláveis, com proficiência em Backend.
 
-        -  Sou um entusiasta da Inteligência Artificial, focado em desenvolver Agentes de IA e sistemas guiados por dados que trazem autonomia e eficiência às aplicações.
+        -  Entusiasta da Inteligência Artificial, focado em desenvolver Agentes de IA e sistemas guiados por dados que trazem autonomia e eficiência às aplicações.
 
         Minhas ferramentas e habilidades incluem:
-
+        
+        - ⚙️ Django e Django REST Framework: Construção de backends robustos para sustentar soluções de IA no desenvolvimento web.
         - 🧠 TensorFlow e Keras: Para arquitetar e treinar modelos de IA de ponta.
         - 💡 Scikit-learn: Aplicação estratégica de algoritmos de Machine Learning.
         - 📊 Pandas e NumPy: Extraio valor e insights de grandes volumes de dados.
         - 📈 Matplotlib e Plotly: Crio dashboards e visualizações dinâmicas que revelam informações cruciais.
         - 🖼️ Pillow: Para manipulação e pré-processamento de imagens em Visão Computacional.
         - 💻 Streamlit: Desenvolvimento ágil de interfaces intuitivas para demonstrar modelos de IA.
-        - ⚙️ Django e Django REST Framework: Construção de backends robustos para sustentar soluções de IA no desenvolvimento web.
         - 🗄️ SQL e PostgreSQL: Expertise em ETL e otimização de consultas para gestão de dados.
 
     """

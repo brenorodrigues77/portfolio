@@ -27,10 +27,16 @@ project_3 = st.Page(
     icon="👨🏻‍💻",
 )
 
+project_4 = st.Page(
+    page="projects/api_coffee_shop.py",
+    title="API Coffee Shop",
+    icon="👨🏻‍💻",
+)
+
 page = st.navigation(
     {
         "Informações": [about_me],
-        "Projetos": [project_1, project_2, project_3],
+        "Projetos": [project_1, project_2, project_3, project_4],
     }
 )
 
