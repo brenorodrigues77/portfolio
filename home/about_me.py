@@ -52,3 +52,5 @@ st.write(
         -   Versionamento de código com Git e GitHub.
     """
 )
+
+st.link_button("Linkedin", "https://www.linkedin.com/in/breno7/")
