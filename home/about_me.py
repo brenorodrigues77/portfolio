@@ -1,24 +1,27 @@
 import streamlit as st
 
-st.title("Desenvolvedor Python Junior | Inteligência Artificial ")
+st.title(" Desenvolvedor Jr | Backend | Python | SQL | Inteligência Artificial ")
 st.write(
     """
-        -  👨🏻‍💻 Desenvolvedor Python | Impulsionando a Inovação com Dados e Inteligencia artificial
+        -  🚀 Desenvolvedor Jr | Impulsionando a Inovação com Dados e IA
 
-        -  Com 1 ano e 6 meses de experiência em Python, transformo desafios em soluções inteligentes e escaláveis, com proficiência em Backend.
+        -  Com 1 ano e 8 meses de experiência em Python, transformo desafios em soluções inteligentes e escaláveis, com proficiência em Backend.
 
-        -  Entusiasta da Inteligência Artificial, focado em desenvolver Agentes de IA e sistemas guiados por dados que trazem autonomia e eficiência às aplicações.
+        -  Sou um entusiasta da Inteligência Artificial e Machine Learning, focado em desenvolver Agentes de IA e sistemas guiados por dados que trazem autonomia e eficiência às aplicações Web.
 
         Minhas ferramentas e habilidades incluem:
         
-        - ⚙️ Django e Django REST Framework: Construção de backends robustos para sustentar soluções de IA no desenvolvimento web.
+        - 🌐 Django e Django REST Framework: Construção de backends robustos para sustentar soluções de IA no desenvolvimento web.
+        - 🤖 Inteligência Artificial: Criação de agentes e Integrações via APIs em aplicações web para automações e agentes autônomos.
+        - 🗄️ SQL e PostgreSQL: Expertise em ETL e otimização de consultas para gestão de dados.
+        - 📊 Pandas e NumPy: Extraio valor e insights de grandes volumes de dados.
+        - Git e GitHub: Versionamento e colaboração eficaz em projetos de desenvolvimento.
+
+        Aprendizados Constantes:
+
         - 🧠 TensorFlow e Keras: Para arquitetar e treinar modelos de IA de ponta.
         - 💡 Scikit-learn: Aplicação estratégica de algoritmos de Machine Learning.
-        - 📊 Pandas e NumPy: Extraio valor e insights de grandes volumes de dados.
-        - 📈 Matplotlib e Plotly: Crio dashboards e visualizações dinâmicas que revelam informações cruciais.
         - 🖼️ Pillow: Para manipulação e pré-processamento de imagens em Visão Computacional.
-        - 💻 Streamlit: Desenvolvimento ágil de interfaces intuitivas para demonstrar modelos de IA.
-        - 🗄️ SQL e PostgreSQL: Expertise em ETL e otimização de consultas para gestão de dados.
 
     """
 )
