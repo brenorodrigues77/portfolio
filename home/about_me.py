@@ -24,7 +24,7 @@ st.write(
         - 🤖 Inteligência Artificial: Criação de agentes e Integrações via APIs em aplicações web para automações e agentes autônomos.
         - 🗄️ SQL e PostgreSQL: Expertise em ETL e otimização de consultas para gestão de dados.
         - 📊 Pandas e NumPy: Extraio valor e insights de grandes volumes de dados.
-        - Git, GitHub, GitLab e Bitbucket: Versionamento e colaboração eficaz em projetos de desenvolvimento.
+        -  Git, GitHub, GitLab e Bitbucket: Versionamento e colaboração eficaz em projetos de desenvolvimento.
         -  Metodologias Ágeis: Experiência em Scrum, Kanban e Jira para entrega contínua de valor.
 
         Aprendizados Constantes:
@@ -54,3 +54,4 @@ st.write(
 )
 
 st.link_button("Linkedin", "https://www.linkedin.com/in/breno7/")
+st.link_button("Github", "https://github.com/brenorodrigues77")
