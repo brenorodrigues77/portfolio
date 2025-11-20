@@ -43,7 +43,7 @@ st.write(st.session_state['descricao_project2'])
 st.write("Fotos")
 # Exiba as fotos no Streamlit
 for foto in st.session_state['fotos_project2']:
-    st.image(foto, caption=foto.filename, use_container_width=True)
+    st.image(foto, use_container_width=True)
 
 st.link_button(
     "Codigo Fonte",
